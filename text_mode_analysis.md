@@ -37,7 +37,7 @@ Licensed under the Apache License 2.0
 * RS323Cの場合は XON / XOFF フロー制御
 * XON / XOFF および一部制御コードに対するエスケープシーケンスあり
   （詳細は D-STAR 仕様書参照）
-* 一方向送信のみ
+* 一方向通信のみ
 
   * ACK なし
   * 自動再送なし
@@ -68,6 +68,8 @@ Licensed under the Apache License 2.0
 $$Msg,JS1YCP,CQCQCQ,001190あいうえお[0x92][0x0D(CR)][0x00(NULL)]
 $$Msg,JS1YCP,CQCQCQ,001190テスト[0xF8][0x0D(CR)][0x00(NULL)]
 ```
+
+初期の機材では生のNMEA0183センテンスを交換していた歴史的経緯からか、NMEA0183っぽい構造である事がうかがえる。
 
 ---
 
