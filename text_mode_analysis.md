@@ -4,6 +4,15 @@ Copyright (c) 2025 Daisuke JA1UMW / CQAKIBA.TOKYO
 
 Licensed under the Apache License 2.0
 
+
+This document describes observed communication behavior of RS-MS1A for use in amateur radio systems.
+
+It is not affiliated with or endorsed by ICOM Inc.
+
+本ドキュメントは、アマチュア無線システムでの利用を目的として、RS-MS1A の通信挙動を観測・分析した技術資料です。
+
+ICOM株式会社とは一切関係なく、公式に承認されたものではありません。
+
 ---
 
 ## 概要
