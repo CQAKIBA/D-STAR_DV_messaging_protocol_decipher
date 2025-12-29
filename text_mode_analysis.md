@@ -31,7 +31,10 @@ Licensed under the Apache License 2.0
 （実機の挙動 / D-STAR 仕様書 / Wikipedia 等より）
 
 * 単純なシリアル通信
-* XON / XOFF フロー制御
+
+  * USB-RS232C（純正ケーブル or FTDIチップのみ）
+  * Bluetooth SPP
+* RS323Cの場合は XON / XOFF フロー制御
 * XON / XOFF および一部制御コードに対するエスケープシーケンスあり
   （詳細は D-STAR 仕様書参照）
 * 一方向送信のみ
