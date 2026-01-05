@@ -1,6 +1,6 @@
 # Protocol Analysis Project for RS-MS1A (Text Mode)
 
-Copyright (c) 2025 Daisuke JA1UMW / CQAKIBA.TOKYO
+Copyright (c) 2025-2026 Daisuke JA1UMW / CQAKIBA.TOKYO
 
 Licensed under the Apache License 2.0
 
