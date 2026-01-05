@@ -3,7 +3,7 @@
 Copyright (c) 2025-2026 Daisuke JA1UMW / CQAKIBA.TOKYO
 
 Licensed under the Apache License 2.0
-
+https://licenses.opensource.jp/Apache-2.0/Apache-2.0.html
 
 This document describes observed communication behavior of RS-MS1A for use in amateur radio systems.  
 It is not affiliated with or endorsed by ICOM Inc.  
@@ -62,10 +62,11 @@ ICOM株式会社とは一切関係なく、公式に承認されたものでは�
 ### データフレーム
 * $$ で始まり、[0x0D(CR)] で終わる。
 * 末尾に更に [0x00(NULL)] が付く事がある。(条件不明、無視で問題なさそう。)
-* フレームの種類は現在3種類と思われる。
+* フレームの種類は現在3種類確認できている。
   * $$Msg （テキストチャット）
   * $$Pic （画像）
-  * $$Pos （位置情報）
+  * $$CRCE7CF （APRSパケットフレーム。画像フレーム送出時に定期的に挿入される。）
+* 各フレームでそれぞれ微妙に構造が異なる。
 
 
 
